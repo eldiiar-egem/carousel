@@ -2,6 +2,8 @@ import React from "react";
 import {Switch, Route, Link} from 'react-router-dom'
 import Image from "./views/image";
 import Carousels from "./views/carousel";
+import 'react-image-lightbox/style.css';
+import '../styles/base.scss';
 
 const App = () => (
   <div>
