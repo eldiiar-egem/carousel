@@ -1,0 +1,8 @@
+[*]
+indent_size=4
+[*.js*]
+indent_size=2
+[*.*ml]
+indent_size=2
+[*.scss]
+indent_size=2
