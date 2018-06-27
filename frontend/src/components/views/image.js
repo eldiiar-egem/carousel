@@ -28,7 +28,7 @@ class Image extends Component {
     return (
       <a onClick={() => this.setCurrentImageState(f)} key={i}
          target={'_blank'}>
-        <img src={f} width={600} height={400}/>
+        <img src={f} width={'25%'} height={'100%'}/>
       </a>
     );
   };
@@ -55,7 +55,7 @@ class Image extends Component {
     const images = this.state.images.map((el) => el.location);
     return [
       <div key={'gallery'} className="responsive">
-        <div className="gallery">
+        <div className={"gallery"}>
           {images.map(this.mapFilesBase)}
         </div>
       </div>,
